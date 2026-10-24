@@ -1,7 +1,8 @@
 # QAOA AI model training
 
 > [!NOTE]
-> This repository is associated with a [research publication](https://arxiv.org/pdf/2610.23296) and the code here is not actively maintained. It is not officially supported IBM Quantum software.
+> This repository is associated with a [research publication](https://arxiv.org/abs/2610.23296) and the code here is not actively maintained. It is not officially supported IBM Quantum software.
+
 
 This repository contains the code to train and evaluate machine learning models that predict QAOA parameters for weighted MaxCut problems. Given a problem graph, a model outputs the angles
 
@@ -18,7 +19,7 @@ Depending on the architecture, a model uses graph-level features, the graph stru
 Requires Python 3.11+. Clone the repository and install the package into a fresh `venv`:
 
 ```bash
-git clone <repository-url>
+git clone git@github.com:jhnnsjkbk1/qaoa_ai_model_training.git
 cd qaoa_ai_model_training
 pip install -e .
 ```
