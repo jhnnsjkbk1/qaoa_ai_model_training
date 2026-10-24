@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Learning angles for quantum approximate optimization: model training code"
+type: software
+repository-code: "https://github.com/jhnnsjkbk1/qaoa_ai_model_training"
+license: Apache-2.0
+authors:
+  - given-names: Johannes
+    family-names: Jakubik
+  - given-names: Isabelle
+    family-names: Wittmann
+  - given-names: Zaheed
+    family-names: Gaffoor
+  - given-names: Gciniwe Simphiwe
+    family-names: Baloyi
+  - given-names: Craig
+    family-names: Mahlasi
+  - given-names: Etienne
+    family-names: Vos
+  - given-names: Thomas
+    family-names: Brunschwiler
+  - given-names: Daniel J.
+    family-names: Egger
+keywords:
+  - QAOA
+  - quantum approximate optimization
+  - parameter prediction
+  - graph neural networks
+  - transformers
+preferred-citation:
+  type: article
+  title: "Learning angles for quantum approximate optimization"
+  authors:
+    - given-names: Johannes
+      family-names: Jakubik
+    - given-names: Isabelle
+      family-names: Wittmann
+    - given-names: Zaheed
+      family-names: Gaffoor
+    - given-names: Gciniwe Simphiwe
+      family-names: Baloyi
+    - given-names: Craig
+      family-names: Mahlasi
+    - given-names: Etienne
+      family-names: Vos
+    - given-names: Thomas
+      family-names: Brunschwiler
+    - given-names: Daniel J.
+      family-names: Egger
+  year: 2026
+  month: 10
+  journal: "arXiv preprint"
+  identifiers:
+    - type: other
+      value: "arXiv:2610.23296"
+      description: arXiv identifier
+  doi: 10.48550/arXiv.2610.23296
+  url: "https://arxiv.org/abs/2610.23296"

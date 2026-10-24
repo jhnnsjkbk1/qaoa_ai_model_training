@@ -410,6 +410,20 @@ The data preparation utilities are:
 | `compute_fixed_angle_cuts.py` | Compute the fixed-angle baseline |
 | `make_smoke_test_data.py` | Generate a tiny synthetic dataset for smoke tests |
 
+## Citation
+
+If you use this code, please cite:
+
+```bibtex
+@article{jakubik2026learning,
+  title   = {Learning angles for quantum approximate optimization},
+  author  = {Jakubik, Johannes and Wittmann, Isabelle and Gaffoor, Zaheed and Baloyi, Gciniwe Simphiwe and Mahlasi, Craig and Vos, Etienne and Brunschwiler, Thomas and Egger, Daniel J.},
+  journal = {arXiv preprint arXiv:2610.23296},
+  year    = {2026},
+  doi     = {10.48550/arXiv.2610.23296}
+}
+```
+
 ## Acknowledgements
 
 This project builds on [`qaoa_training_pipeline`](https://github.com/qiskit-community/qaoa_training_pipeline) for QAOA evaluation and training utilities and on [PauliPropagation.jl](https://github.com/MSRudolph/PauliPropagation.jl) for efficient evaluation at QAOA depth `p > 1`.
